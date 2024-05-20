@@ -1,7 +1,7 @@
 const Main = () => {
   return (
     <main>
-      <h1>Meu Component</h1>
+      <h1>SisCentral Boilerplate Next</h1>
     </main>
   )
 }

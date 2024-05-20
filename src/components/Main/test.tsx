@@ -8,7 +8,7 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
     //Search element is verifier the exist
     expect(
-      screen.getByRole('heading', { name: /Meu Component/i })
+      screen.getByRole('heading', { name: /SisCentral Boilerplate Next/i })
     ).toBeInTheDocument()
     //generate snapshot
     expect(container.firstChild).toMatchSnapshot()
