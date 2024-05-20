@@ -1,3 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx --no-install lint-staged
 echo 'Check for linting errors ...'
-npm run lint ||
-(echo 'Errors linting' && exit 1)
+#npm run lint ||
+#(echo 'Errors linting' && exit 1)
