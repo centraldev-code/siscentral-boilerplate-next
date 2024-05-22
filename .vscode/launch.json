@@ -2,16 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Next: debug server-side",
-      "type": "node-terminal",
+      "type": "node",
       "request": "launch",
-      "command": "npm run dev"
+      "name": "Debug Application",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "internalConsoleOptions": "openOnSessionStart"
     },
     {
-      "name": "Storybook",
-      "type": "node-terminal",
+      "type": "node",
       "request": "launch",
-      "command": "npm run storybook"
+      "name": "Storybook Application",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "storybook"],
+      "internalConsoleOptions": "openOnSessionStart"
     }
   ]
 }
